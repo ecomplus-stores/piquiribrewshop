@@ -5,11 +5,11 @@
   },
   "links_1": {
     "list_pages": true,
-    "title": "Páginas",
+    "title": "Institucional",
     "list": []
   },
   "links_2": {
-    "list_categories": true,
+    "list_categories": false,
     "title": "Categorias",
     "list": []
   },
@@ -22,20 +22,23 @@
   },
   "stamps": [
     {
-      "src": "/img/uploads/ssl-safe.png",
-      "alt": "Secure connection",
-      "width": 150,
-      "height": 62
+      "src": "/img/uploads/stamp_encryptssl.png"
+    },
+    {
+      "src": "/img/uploads/stamp_google_safe_browsing.png",
+      "link": "https://transparencyreport.google.com/safe-browsing/search?url=www.piquiribrewshop.com.br"
     }
   ],
   "payment_methods": {
-    "pix": true,
     "visa": true,
-    "mastercard": true,
+    "boleto": true,
     "elo": true,
-    "amex": true,
     "hipercard": true,
-    "boleto": true
+    "mastercard": true,
+    "paypal": true,
+    "hiper": true,
+    "pix": true,
+    "amex": true
   },
-  "credits": ""
+  "credits": "Henrique A. Perina Ecommerce - CNPJ: 24.556.390/0001-49 © Todos os direitos reservados. 2024"
 }
