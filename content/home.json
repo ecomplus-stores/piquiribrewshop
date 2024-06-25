@@ -4,36 +4,43 @@
   "sections": [
     {
       "type": "banner-slider",
-      "autoplay": 9000,
-      "full_width": false,
+      "autoplay": 4000,
+      "full_width": true,
       "slides": [
         {
-          "img": "/img/uploads/rect89.webp",
-          "link": "/headset",
-          "alt": "Headset banner",
-          "start": "2020-04-11T05:54:06.750Z",
-          "end": "2020-12-31T03:00:00.000Z",
-          "mobile_img": "/img/uploads/headphone.webp"
+          "img": "/img/uploads/banner-site-5-min-opr2d5bexl.png",
+          "link": "",
+          "alt": "",
+          "start": "",
+          "end": "",
+          "mobile_img": "/img/uploads/banner-mobile-site-3-min-oefn6jbd1o.png"
         },
         {
           "start": "",
           "end": "",
-          "img": "/img/uploads/banner2.webp",
-          "alt": "Banner sample two",
-          "mobile_img": "/img/uploads/passion.webp"
+          "img": "/img/uploads/co-pia-de-brava-terra-banner-pc-min-dsoobx6oq6.png",
+          "alt": "",
+          "mobile_img": "/img/uploads/brava-terra-banner-mobile-min-41ky6hwvwh.png"
         }
       ]
     },
     {
-      "type": "info-bar",
-      "enabled": true
+      "type": "banners-grid",
+      "banners": [
+        {
+          "img": "/img/uploads/35854a0671.png"
+        },
+        {
+          "img": "/img/uploads/47497490e0.png"
+        }
+      ]
     },
     {
       "type": "collection-shelf",
       "shuffle": true,
       "collection_id": null,
-      "sort": "offers",
-      "title": "",
+      "sort": null,
+      "title": "Lançamentos",
       "headless": false,
       "limit": 12,
       "page": 1
