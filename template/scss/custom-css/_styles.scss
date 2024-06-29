@@ -1,2 +1,202 @@
-// Add your custom CSS here.
-body{}
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+//@import url("https://use.typekit.net/het3eyq.css");
+:root{
+    /* INVERT HEADER */
+    --invertHeaderBackground:#000;
+    --invertHeaderColor:#fff;
+    --invertHeaderCartBadgeBackground:#000;
+    --invertHeaderCartBadgeColor:#fff;
+
+    /* AJUSTE LOGO */
+    --logoDesktop : 70px;
+    --logoMobile : 40px;
+
+    --borderRadius: 5px;
+
+    /* PRIMARY */
+    --primaryColor: #000000;
+    --secondaryColor: #666;
+    --buttonColor: #000;
+    --bodyFontFamily: "Montserrat";
+    --bodyFontWeight: 400;
+    --bodyFontSize: 12px;
+    
+    /* TITLES */
+    --titleFontFamily: "Bebas Neue", sans-serif;
+    --titleFontWeight: 400;
+    /* --titleFontSize: 93px; */
+    --titleFontSize: 55px;
+    --titleFontTransform: uppercase;
+    --titleFontColor: #000;
+
+    /* MENU */
+    --menuFontFamily: "Bebas Neue", sans-serif;
+    --menuFontWeight: 400;
+    --menuFontSize: 25px;
+    --menuFontTransform: uppercase;
+    --menuFontColor: #000;
+
+    /* FOOTER */
+    --footerFontFamily: "Montserrat";
+    --footerFontWeight: 400;
+    --footerFontSize: 14px;
+    --footerFontTransform: normal;
+    --footerFontColor: #878787;
+
+    /* FOOTER TITLES */
+    --footerTitleFontFamily: "Montserrat";
+    --footerTitleFontWeight: 600;
+    --footerTitleFontSize: 18px;
+    --footerTitleFontTransform: normal;
+    --footerTitleFontColor: #000;
+
+    /* PRODUCT LISTING */
+    --productFontFamily: "Bebas Neue";
+    --productFontWeight: 400;
+    --productFontSize: 24px;
+    --productFontColor: #000;
+
+    
+    --productPriceFontFamily: "Bebas Neue";
+    --productPriceFontWeight: 400;
+    --productPriceFontSize: 48px;
+    --productPriceColor:#97BE11;
+    
+    --productPriceStrikeFontWeight: 300;
+    --productPriceStrikeFontSize: 22px;
+    --productPriceStrikeColor:#666;  
+    
+    --productButtonAddBackground: #fff;
+    --productButtonAddColor: #000;
+
+    /* BUTTONS */
+    --buttonBorderRadius: 0px;
+    --buttonFontSize: 0px;
+    --buttonBackground: "";
+    --buttonColor: "";
+}
+body,
+.products-carousel{
+  background: #f8f8f8;
+}
+.container{
+  width: 1390px;
+  max-width: 100%;
+}
+.products-carousel__title{
+  a,span{
+    font-family: var(--titleFontFamily);
+    text-transform: var(--titleFontTransform);
+    font-weight: var(--titleFontWeight);
+    font-size: var(--titleFontSize);
+    text-align: center;
+    display: block;
+    padding: 0 2rem;
+    width: fit-content;
+    margin: 0 auto 15px auto;
+    position: relative;
+    color: var(--titleFontColor);
+    background: transparent;
+  }
+}
+.products-carousel__title:before{
+  background-image:url('../../public/assets/section_hat.png');
+  width: 122px;
+  height: 56px;
+  display: block;
+  margin: 0 auto 1rem auto;
+  background-color: transparent;
+  position: relative;
+  left: auto;
+}
+header.header{
+  padding: 0;
+  border: 0;
+  background: #f8f8f8;
+  .header__nav{
+    .header__category strong{
+      font-family: var(--menuFontFamily);
+      text-transform: var(--menuFontTransform);
+      font-weight: var(--menuFontWeight);
+      font-size: var(--menuFontSize);
+      color: var(--menuFontColor);
+      margin: 5px 0;
+      position: relative;
+    }
+    .header__category{padding: 10px 20px;}
+    .header__category:hover strong:before{width: 100%;}
+    .header__category strong:before {
+      content: "";
+      background: #97BE11;
+      width: 0;
+      bottom: -4px;
+      height: 4px;
+      position: absolute;
+      transition: width .3s;
+  }
+    .header__category:hover{background: unset;}
+  }
+  .bg-navbar{background:#ededed}
+}
+
+#content{
+  .product-card{
+    background: #fff;
+    border-radius: 10px;
+    padding: 2rem;
+    a,
+    a:hover{text-decoration: none;}
+    .product-card__name{
+      font-family: var(--productFontFamily);
+      font-weight: var(--productFontWeight) !important;
+      font-size: var(--productFontSize);
+      color: var(--productFontColor);
+      box-sizing: content-box !important;
+      overflow: hidden;
+      z-index: 1;
+      display: -webkit-box;
+      -webkit-line-clamp: 2;
+      -webkit-box-orient: vertical;
+      min-height: unset !important;
+      text-align: center;
+      text-decoration: none;
+    }
+    .product-card__prices{
+      .prices__value{
+        font-family: var(--productPriceFontFamily);
+        font-weight: var(--productPriceFontWeight);
+        font-size: var(--productPriceFontSize);
+        color: var(--productPriceColor);
+        text-align: center;
+        display: block;
+        margin: .5rem 0;
+        line-height: initial;
+      }
+    }
+    .product-card__buy{
+      button{
+        i{display: none;}
+        background: #B36F00;
+        color: #fff;
+        text-transform: uppercase;
+        font-family: 'Bebas Neue';
+        font-weight: 400;
+        font-size: 26px;
+        width: fit-content;
+        padding: 3px 2rem 0rem 2rem;
+        display: block;
+        margin: 0 auto;
+        border: 0;
+        border-radius: 3px;
+        text-decoration: none;
+        line-height: 50px;
+      }
+    }
+  }
+}
+
+.products-carousel{
+  max-width: 100%;    
+  .product-item{margin: 0 2.5px;}
+}
