@@ -73,58 +73,13 @@ const hasAllDepartments = header.menu_all_departments
     <% } %>
   <% } %>
 
-  <div class="top-bar__nav d-none d-md-block">
-    <div class="container-fluid">
-      <div class="row">
-        <div class="col d-flex">
-          <nav class="top-bar__page-links">
-            <% if (header.contacts_stripe.pages) { %>
-              <div class="<%= (themeCustom === 'ecom-beauty' && isCategoriesNavFull) ? 'd-lg-none' : '' %>">
-                <% header.contacts_stripe.pages.forEach(({ link, title }) => { %>
-                  <a href="<%= link %>"><%= title %></a>
-                <% }) %>
-              </div>
-            <% } %>
-          </nav>
-          <% if (header.contacts_stripe.phone_wpp) { %>
-            <div class="top-bar__contacts-container">
-              <% if (contacts.whatsapp) { %>
-                <a href="javascript:;" target="_blank" rel="noopener" class="whatsapp-link"
-                  data-tel="<%= contacts.whatsapp.replace(/\D/g, '') %>">
-                  <i class="i-whatsapp"></i>
-                  <%= contacts.whatsapp %>
-                </a>
-                <% } %>
-              <% if (contacts.phone) { %>
-                <a href="tel:+<%= contacts.phone.replace(/\D/g, '') %>" target="_blank" rel="noopener">
-                  <i class="i-phone"></i>
-                  <%= contacts.phone %>
-                </a>
-              <% } %>
-            </div>
-            
-          <% } %>
-        </div>
-        <% if (header.contacts_stripe.socials) { %>
-          <div class="col-auto">
-            <% networks.forEach(network => { %>
-              <% if (contacts[network]) { %>
-                <a href="<%= contacts[network] %>" target="_blank" rel="noopener">
-                  <i class="i-<%= network %>"></i>
-                </a>
-              <% } %>
-            <% }) %>
-          </div>
-        <% } %>
-      </div>
-    </div>
-  </div>
+  
 </div>
 
 <header class="header" id="header">
   <div class="header__container container-fluid">
     <div class="header__row row<%= isCentralizedLogo ? ' header__row--centralized-logo' : '' %><%= isCentralizedLogo && isCategoriesNavFull ? ' header__row--full-width' : '' %>">
-      <div class="col-auto p-0 header__toggler-block">
+      <div class="col-auto p-0 header__toggler-block d-md-none">
         <button
           class="btn header__toggler<%= hasMegamenu ? ' d-lg-none' : '' %>"
           type="button"
@@ -173,7 +128,13 @@ const hasAllDepartments = header.menu_all_departments
             href="/app/#/account/"
             title="<%= _.dictionary('myAccount') %>"
           >
-            <i class="i-user"></i>
+            <i class="svg-ico">
+              <svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" width="512" height="512" x="0" y="0" viewBox="0 0 512 512" style="enable-background:new 0 0 512 512" xml:space="preserve" class=""><g><path d="M337.711 241.3a15.977 15.977 0 0 0-11.461 3.988c-18.738 16.561-43.687 25.682-70.25 25.682s-51.512-9.121-70.25-25.683a16.02 16.02 0 0 0-11.461-3.988c-78.926 4.274-140.752 63.672-140.752 135.224v107.153C33.537 499.294 46.9 512 63.332 512h385.336c16.429 0 29.8-12.706 29.8-28.324V376.523c-.005-71.552-61.831-130.95-140.757-135.223zM446.463 480H65.537V376.523c0-52.74 45.359-96.889 104.35-102.8 23.862 18.908 54.167 29.247 86.113 29.247s62.251-10.339 86.113-29.245c58.991 5.909 104.35 50.058 104.35 102.8zM256 234.375a117.188 117.188 0 1 0-117.188-117.187A117.321 117.321 0 0 0 256 234.375zM256 32a85.188 85.188 0 1 1-85.188 85.188A85.284 85.284 0 0 1 256 32z" fill="#000000" opacity="1" data-original="#000000"></path></g></svg>
+            </i>
+            <div class="functions-info">
+              <b>Minha Conta</b>
+              <span>Olá, <span data-username>Visitante</span></span>
+            </div>
           </a>
           <a
             id="cart-button"
@@ -182,8 +143,13 @@ const hasAllDepartments = header.menu_all_departments
             href="/app/#/cart"
             title="<%= _.dictionary('openCart') %>"
           >
-            <i class="i-shopping-bag"></i>
-            <span id="cart-count" class="badge badge-primary"></span>
+            <i class="svg-ico">
+              <svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" width="512" height="512" x="0" y="0" viewBox="0 0 682.667 682.667" style="enable-background:new 0 0 512 512" xml:space="preserve" class=""><g><defs><clipPath id="a" clipPathUnits="userSpaceOnUse"><path d="M0 512h512V0H0Z" fill="#000000" opacity="1" data-original="#000000"></path></clipPath></defs><g clip-path="url(#a)" transform="matrix(1.33333 0 0 -1.33333 0 682.667)"><path d="M0 0v-230.516h289.897V113.85" style="stroke-width:30;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1" transform="translate(75.395 245.516)" fill="none" stroke="#000000" stroke-width="30" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="none" stroke-opacity="" data-original="#000000"></path><path d="M0 0c0 28.085-22.768 50.854-50.853 50.854a51.48 51.48 0 0 1-4.268-.193C-68.397 75.58-94.63 92.55-124.836 92.55a78.552 78.552 0 0 1-42.855-12.658c-14.941 15.468-35.884 25.102-59.088 25.102-35.619 0-65.935-22.67-77.331-54.364-25.889-2.365-46.17-24.125-46.17-50.63 0-18.29 9.661-34.319 24.153-43.279v-66.982c0-20.009 16.221-36.229 36.23-36.229 20.009 0 36.23 16.22 36.23 36.229v40.134c25.605.037 47.595 15.445 57.27 37.486H0z" style="stroke-width:30;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1" transform="translate(365.292 392.006)" fill="none" stroke="#000000" stroke-width="30" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="none" stroke-opacity="" data-original="#000000"></path><path d="M0 0h289.897" style="stroke-width:30;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1" transform="translate(75.395 75.048)" fill="none" stroke="#000000" stroke-width="30" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="none" stroke-opacity="" data-original="#000000"></path><path d="M0 0h5.846c36.31 0 65.85 29.54 65.85 65.85v32.622c0 19.725-16.048 35.773-35.774 35.773H0" style="stroke-width:30;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1" transform="translate(365.292 135.072)" fill="none" stroke="#000000" stroke-width="30" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="none" stroke-opacity="" data-original="#000000"></path><path d="M0 0h35.922c52.81 0 95.774-42.964 95.774-95.773v-32.623c0-69.393-56.456-125.849-125.85-125.849H0" style="stroke-width:30;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1" transform="translate(365.292 329.317)" fill="none" stroke="#000000" stroke-width="30" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="none" stroke-opacity="" data-original="#000000"></path></g></g></svg>
+            </i>
+            <div class="functions-info">
+              <b>Meu Carrinho</b>
+              <span><span id="cart-count"></span> itens</span>
+            </div>
           </a>
         </div>
 
@@ -217,7 +183,7 @@ const hasAllDepartments = header.menu_all_departments
             <input
               type="search"
               name="term"
-              placeholder="<%= _.dictionary('searchProducts') %>"
+              placeholder="Digite o que você procura..."
               aria-label="<%= _.dictionary('searchProducts') %>"
               class="header__search-input form-control"
               id="search-input"
@@ -227,7 +193,7 @@ const hasAllDepartments = header.menu_all_departments
               class="header__search-btn"
               aria-label="<%= _.dictionary('searchProducts') %>"
             >
-              <i class="i-search"></i>
+              Buscar
             </button>
             <div id="instant-search">
               <!--
