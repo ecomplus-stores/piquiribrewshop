@@ -7,16 +7,21 @@ const logo = _.settings.logo
 if (logo && logo.url) {
   const { width, height } = _.tryImageSize(logo.url)
   %>
-  <img
-    id="logo"
-    class="header__logo"
-    src="<%= logo.url %>"
-    alt="<%= logo.alt %>"
-    <% if (width) { %>
-      width="<%= width %>"
-      height="<%= height %>"
-    <% } %>
-  >
+  <picture>
+    <source media="(min-width:991px)" srcset="<%= logo.url %>">
+    <source media="(max-width:990px)" srcset="./assets/piquiri_mobile_2.png">
+    <img
+      id="logo"
+      class="header__logo"
+      src="<%= logo.url %>"
+      alt="<%= logo.alt %>"
+      <% if (width) { %>
+        width="<%= width %>"
+        height="<%= height %>"
+      <% } %>
+    >
+  </picture>
+  
 <% } else { %>
   <%= _.settings.name || _.store.name %>
 <% } %>

@@ -1,10 +1,12 @@
 <% if (_.state.specifications) { %>
   <section id="product-specs" class="product-specs my-4 my-lg-5">
     <div class="container">
-      <p class="lead">
-        <a href="#specs" name="specs">#</a>
-        <%= _.dictionary('productSpecifications') %>
-      </p>
+      <div class="apx-title">
+        <p class="lead">
+          <%= _.dictionary('productSpecifications') %>
+        </p>
+      </div>
+      
       <table class="table table-striped">
         <tbody>
           <% for (const gridId in _.state.specifications) {

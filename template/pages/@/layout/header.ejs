@@ -79,47 +79,30 @@ const hasAllDepartments = header.menu_all_departments
 <header class="header" id="header">
   <div class="header__container container-fluid">
     <div class="header__row row<%= isCentralizedLogo ? ' header__row--centralized-logo' : '' %><%= isCentralizedLogo && isCategoriesNavFull ? ' header__row--full-width' : '' %>">
-      <div class="col-auto p-0 header__toggler-block d-md-none">
+      <div class="col-auto d-flex p-md-0 pr-0 header__toggler-block d-md-none">
         <button
           class="btn header__toggler<%= hasMegamenu ? ' d-lg-none' : '' %>"
           type="button"
+          id="theme_header-menu-trigger"
           onclick="toggleSidenav()"
           aria-label="Toggle side navigation"
         >
-          <i class="header__toggler-icon i-bars"></i>
-          <% if (!categories.length) { %>
-            <span class="d-none d-lg-inline">
-              Menu
-            </span>
-          <% } %>
         </button>
       </div>
 
-      <div class="col col-lg-auto pl-1 pl-md-2 pl-lg-3 header__logo-block">
+      <div class="col-auto col-lg-auto pl-0 pl-md-2 pl-lg-3 header__logo-block">
         <a href="/">
           <%- await include('@/layout/inc/logo', { _ }) %>
         </a>
       </div>
 
-      <div class="order-lg-last col-auto p-0 header__buttons-block">
+      <div class="order-lg-last col-md-auto col p-md-0 pl-0 header__buttons-block">
         <div
           class="header__buttons"
           role="group"
           aria-label="<%= _.dictionary('myAccount') %>"
         >
-          <button
-            class="d-lg-none btn btn-lg"
-            id="mobile-search-btn"
-            type="button"
-            data-toggle="collapse"
-            data-target="#search-bar"
-            aria-expanded="true"
-            aria-controls="search-bar"
-            aria-controls="search-bar"
-            title="<%= _.dictionary('searchProducts') %>"
-          >
-            <i class="i-search"></i>
-          </button>
+          
 
           <a
             id="user-button"
@@ -171,7 +154,7 @@ const hasAllDepartments = header.menu_all_departments
         const searchColSize = !isCategoriesNavFull && categories.length ? '-3' : ''
         %>
         <div
-          class="d-none d-lg-block col-12 col-lg<%= searchColSize %> collapse show"
+          class="d-block col-12 col-lg<%= searchColSize %> collapse show"
           id="search-bar"
         >
           <form

@@ -81,20 +81,18 @@ const posts = _.cms('posts')
           </div>
         </div>
       </div>
-      <div class="col-md-auto col-12 offset-md-1">
+      <div class="col-md-auto col-12 offset-md-1 mt-4 mt-md-0">
         <% if (footer.links_1.list_pages || footer.links_1.list.find(({ url }) => url)) { %>
           <div class="">
             <a
               class="footer__title"
-              data-toggle="collapse"
               href="#footer-pages"
               role="button"
-              aria-expanded="false"
-              aria-controls="footer-pages"
+              
             >
               <%= footer.links_1.title || _.dictionary('pages') %>
             </a>
-            <div class="collapse" id="footer-pages">
+            <div id="footer-pages">
               <% if (footer.links_1.list_pages) { %>
                 <ul class="footer__links">
                   <% (_.cms('pages') || []).forEach(slug => { %>
