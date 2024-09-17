@@ -3,7 +3,7 @@
 const header = _.cms('header') || {}
 const contacts = _.cms('contacts') || {}
 const themeCustom = _.settings.theme.custom || ''
-
+const apx_header = _.cms('apx_header') || {}
 // social networks handled by contacts
 const networks = [
   'facebook',
@@ -224,52 +224,71 @@ const hasAllDepartments = header.menu_all_departments
         <% if (categories && categories.length) { %>
           <div class="d-none d-lg-block <%= isCategoriesNavFull ? 'col-12 order-lg-last' : 'col' %> header__nav-block">
             <nav class="header__nav<%= isCategoriesNavFull ? ' header__nav--full' : '' %>">
-              <% if (hasAllDepartments) { %>
-                <div class="d-inline-block">
-                  <a 
-                    href="javascript:;"
-                    class="header__category"
-                    id="cd-all"
-                    onmouseover="toggleSubmenu('all', this)"
-                    onclick="toggleSubmenu('all', this)"
-                  >
-                    <strong>
-                      <%= header.name_all_departments || _.dictionary('all') %>
-                    </strong>
+              <ul class="level_1">
+              <% if(apx_header.links) { 
+                apx_header.links.forEach(({ url, path, title, list })=> {
+                  subcategories = _.categories.filter(el => el.parent && el.parent.name == title)
+                %>
+                <li class="header__category <%= list ? 'dropdown' : ''%>">
+              
+                  <a href="<%= path ? path : url %>">
+                    <strong><%= title %></strong>
                   </a>
-                  <nav class="header__submenu header__submenu--full" id="s-all">
-                    <div class="row">
-                      <% _.categories.forEach(({ name, slug, parent, _id }) => { %>
-                        <% if (!parent) { 
-                          %>
-                          <div class="col-12 col-lg-<%- isCategoriesNavFull ? '2' : '4' %>">
-                            <a 
-                              id="sd-all-<%= _id %>" 
-                              href="/<%= slug %>"
-                            >
-                              <%= name %>
-                            </a>
-                          <% const subcategories = _.categories.filter(({ parent }) => parent && parent.slug === slug) %>
-                          <% if (subcategories.length) { %>
-                            <div id="header__submenu-<%= slug %>">
-                              <ul class="header__links">
-                                <% subcategories.forEach(subcategory => { %>
+                  <% if (list || subcategories.length > 0) { %>
+                    <button type="button" class="d-md-none" onclick="$(this).closest('li').toggleClass('open')">                    
+                        <svg width="6" height="4" viewBox="0 0 6 4" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <line x1="0.353553" y1="0.646447" x2="3.35355" y2="3.64645" stroke="black"/>
+                        <line y1="-0.5" x2="4.24264" y2="-0.5" transform="matrix(-0.707107 0.707107 0.707107 0.707107 6 1)" stroke="black"/>
+                        </svg>  
+                    </button>
+                  <% } %>
+                  
+                  <% if (list.length > 0) { 
+                    %>
+                    <div class="level_2">                          
+                        <ul class="">
+                          <% list.forEach(({ item })=> { 
+                            %>
+                            <li class="">
+                              <a href="<%= item.path ? item.path : item.url %>">
+                                <%= item.title %>
+                                <% let main = item.path ? item.path : item.url %>
+                              </a>
+                              <% if (item.list) { %>
+                                <ul>
+                                <% item.list.forEach(({ item })=> { %>
                                   <li>
-                                    <a id="td-all-<%= subcategory._id %>" class="header__submenu-subcategory" href="/<%= subcategory.slug %>">
-                                      <%= subcategory.name %>
+                                    
+                                    <a href="<%= item.path ?  item.path : ( item.url.startsWith('?') ? main + item.url : item.url )%>">
+                                      <%= item.title %> 
                                     </a>
                                   </li>
-                                  <% }) %>
+                                <% }) %>
                                 </ul>
-                              </div>
-                            <% } %>
-                            </div>
-                          <% } %>
-                        <% }) %>
+                              <% } %>                               
+                            </li>
+                          <% }) %>
+                        </ul>
+                    </div>
+                  <% } else { %>
+                    <% if (subcategories.length > 0) {%>
+                      <div class="level_2 ">
+                        <ul class="">
+                          <% subcategories.forEach(({ name, slug, path })=> { 
+                            %>
+                            <li class="">                          
+                              <a href="<%= path ? path : slug %>">
+                                <%= name %>
+                              </a>
+                            </li>
+                          <% }) %>
+                        </ul>
                       </div>
-                    </nav>
-                </div>
-              <% } %>
+                    <% } %>
+                  <% } %>
+                </li>
+              <% }) } %>
+              <!--
               <% categories.forEach(({ slug, name, _id}) => { %>
                 <% let $categoryLink %>
                 <div class="d-inline-block">
@@ -318,6 +337,8 @@ const hasAllDepartments = header.menu_all_departments
                   <% } %>
                 </div>
               <% }) %>
+              -->  
+            </ul>
             </nav>
           </div>
         <% } %>

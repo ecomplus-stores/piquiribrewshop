@@ -4,7 +4,32 @@ const footer = _.cms('footer') || {}
 const contacts = _.cms('contacts') || {}
 const themeCustom = _.settings.theme.custom || ''
 const posts = _.cms('posts')
+const apx_feriados = _.cms('apx_feriados') || {}
 %>
+<script>
+  window.apx_feriados = JSON.parse(<%- JSON.stringify(JSON.stringify(apx_feriados)) %>); 
+  
+  
+  window.formatDate = function (date) {
+      var day = date.getDate();
+      var month = date.getMonth() + 1;
+      var year = date.getFullYear().toString(); // Obtém os últimos dois dígitos do ano
+      day = day.toString().length < 2 ? `0${day}` : day;
+      month = month.toString().length < 2 ? `0${month}` : month;
+      return day + '/' + month + '/' + year;
+  }
+
+  // Função para verificar se uma data está na lista de feriados
+  window.isHoliday = function(date) {
+      const [dia, mes, ano] = date.split('/');
+      
+      //console.log(`aaaa`,date, dia, mes, ano, `${ano}-${mes}-${dia}`)
+      const formattedDate = new Date(`${ano}-${mes}-${dia}T03:00:00.000Z`).toISOString();
+      //console.log(formattedDate)
+      //var formattedDate = formatDate(date);
+      return window.apx_feriados.list.some( el => el.date === formattedDate);
+  }
+</script>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/fontawesome.min.css" integrity="sha512-UuQ/zJlbMVAw/UU8vVBhnI4op+/tFOpQZVT+FormmIEhRSCnJWyHiBbEVgM4Uztsht41f3FzVWgLuwzUqOObKw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 <footer class="footer py-3 py-lg-4 py-xl-5">
   <div class="container pb-3">
