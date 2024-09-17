@@ -916,3 +916,95 @@ h1,
     background-position: center;
   }
 }
+.product-card{
+  .prices{text-align:center;margin-bottom: 1rem;}
+  .prices__installments:before{
+    content: "até ";
+    font-weight: 400!important;
+  }
+  .prices__installments > span:before{
+    content: "de";
+    font-weight: 400!important;
+  }
+  .prices__installments:after{
+    content: "sem juros";
+    font-weight: 400!important;
+  }
+}
+.prices{
+  .prices__value{}
+  .prices__installments{
+    font-weight: 600!important;
+  }
+  
+  .prices__installments{
+
+  }
+  .prices__discount{
+    margin-top: .5rem;
+    span{
+      font-weight: 600;
+    }
+    span:before{
+      content: "ou";
+      font-weight: 400!important;
+    }
+    small{}
+  }
+}
+
+#product{
+  .product__favorite{padding-left: 0;}
+  .product__payment,
+  .share.btn{display: none;}
+}
+
+.product__sticky{
+  background:#fafafa;
+  h5{
+    color: var(--menuFontColor);
+    font-family: var(--menuFontFamily);
+    font-size: var(--menuFontSize);
+    font-weight: var(--menuFontWeight);
+    position: relative;
+    text-transform: var(--menuFontTransform);
+  }
+  .prices__value{
+    color: var(--productPriceColor);
+    display: block;
+    font-family: var(--productPriceFontFamily);
+    font-size: calc(var(--productPriceFontSize)* .9);
+    font-weight: var(--productPriceFontWeight);
+    margin-right: 1rem;
+  }
+  .prices > span{
+    margin-top: -3px;
+    .prices__installments{}
+    .prices__installments:before{
+      content: "até";
+    }
+    .prices__installments:after{
+      content: "sem juros";
+    }
+  }
+  .prices__discount{
+    margin-top: .25rem;
+    span{font-weight: bold;}
+  }
+  .btn-primary{
+    background-color: #b36f00;
+    border: 0 !important;
+    box-sizing: border-box;
+    font-family: var(--titleFontFamily);
+    font-size: 30px;
+    font-weight: var(--titleFontWeight);
+    height: auto;
+    line-height: 58px !important;
+    max-width: 100%;
+    padding: 0;
+    text-transform: var(--titleFontTransform);
+    width: 300px;
+    margin-left: 2rem;
+    i{display: none;}
+  }
+}
