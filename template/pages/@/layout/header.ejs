@@ -228,13 +228,14 @@ const hasAllDepartments = header.menu_all_departments
               <% if(apx_header.links) { 
                 apx_header.links.forEach(({ url, path, title, list })=> {
                   subcategories = _.categories.filter(el => el.parent && el.parent.name == title)
+                  
                 %>
                 <li class="header__category <%= list ? 'dropdown' : ''%>">
               
                   <a href="<%= path ? path : url %>">
                     <strong><%= title %></strong>
                   </a>
-                  <% if (list || subcategories.length > 0) { %>
+                  <% if (list.length > 0 || subcategories.length > 0) { %>
                     <button type="button" class="d-md-none" onclick="$(this).closest('li').toggleClass('open')">                    
                         <svg width="6" height="4" viewBox="0 0 6 4" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <line x1="0.353553" y1="0.646447" x2="3.35355" y2="3.64645" stroke="black"/>
@@ -271,7 +272,8 @@ const hasAllDepartments = header.menu_all_departments
                         </ul>
                     </div>
                   <% } else { %>
-                    <% if (subcategories.length > 0) {%>
+                    <% 
+                    if (subcategories.length > 0) {%>
                       <div class="level_2 ">
                         <ul class="">
                           <% subcategories.forEach(({ name, slug, path })=> { 
