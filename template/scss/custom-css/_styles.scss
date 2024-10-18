@@ -1930,3 +1930,135 @@ ul.app_contacts{
 }
 body.app{padding-bottom: 0;}
 }
+
+
+
+#instant-search{
+  .search__box{background: transparent;border: 0;}
+  .search__header{
+    .search__input-group{position: relative;padding: 0;}
+    background: transparent;
+    .search__status{display: none;}
+    input{
+      padding: 1rem 1.5rem !important;
+      height: 50px;
+      background: #fff;
+    }
+    button{
+      top: 0;
+      margin: 0;
+      right: 0;
+      padding: 0 1rem;
+      height: 100%;
+    }
+    svg{ 
+      path{
+        stroke:#131313!important
+      }
+    }
+  }
+  .search__body,
+  .search__footer{
+    background: #f8f8f8;
+    .product-card{
+      .product-card__buy{display:none!important}
+    }
+    .search__count{}
+  }
+  .search-engine__retail{
+    > .row{
+      > div{
+        margin-bottom: 2rem;
+      }
+    }
+  }
+  .product-card{
+    background: #fff;
+    border-radius: 10px;
+    padding: 1rem;
+    .product-card__prices{
+      align-items: flex-start;
+      justify-content: flex-end;
+      margin-bottom: 0;
+      margin-top: 1rem;
+      .prices__discount{
+        font-size: 12px;
+        justify-content: flex-start;
+        align-items: flex-start;
+        text-align: left;
+        span{
+          color: var(--c2);
+        }
+        span:before{color: var(--c1);}
+      }
+      .prices__value{
+        font-size: 14px;
+        color: var(--c2);
+      }
+      
+      > span{font-size: 12px;margin-top: .25rem;}
+    }
+    .product-card__offer-stamp{
+      font-size: 60%;
+      width: fit-content;
+      min-width: unset;
+      padding-left: .5rem;
+      padding-right: .5rem;
+      top: .5rem;
+      left: .5rem;
+      right: auto;
+    }
+  }
+}
+
+@media(max-width:990px){
+  #instant-search{
+    .search__header{
+      flex-direction: row;
+      .search__input-group{
+        button{
+          height: 100%;
+          padding: 0 .5rem;
+          display: flex;
+          align-items: center;
+          font-size: 18px;
+        }
+        input{
+          font-size: 16px;
+          padding-left: 1rem!important;
+        }
+      }
+      .search__status{
+        display: block;
+        button{          
+          color: #fff;
+          padding-right: 0;
+          font-size: 18px;
+          opacity: 1;
+        }
+      }
+    } 
+    .product-card .product-card__pictures{
+      max-height: unset;
+      max-width: unset;
+      width: 100%;
+    }
+    .search__footer{
+      justify-content: center;
+      .search__count{min-width: unset;}
+    }
+    
+  }
+  
+  .product-card{
+    .product-card__prices{
+      display: flex;
+      flex-direction: column;
+      text-align: left;
+      justify-content: flex-start;
+      align-items: flex-start;
+      gap: 0;
+      margin: .5rem 0 0 0;
+    }
+  }
+}

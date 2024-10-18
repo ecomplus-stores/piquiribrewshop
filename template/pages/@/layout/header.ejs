@@ -279,7 +279,7 @@ const hasAllDepartments = header.menu_all_departments
                           <% subcategories.forEach(({ name, slug, path })=> { 
                             %>
                             <li class="">                          
-                              <a href="<%= path ? path : slug %>">
+                              <a href="<%= slug %>">
                                 <%= name %>
                               </a>
                             </li>
