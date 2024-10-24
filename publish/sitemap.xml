@@ -5516,13 +5516,103 @@
     </url>
   
     <url>
-      <loc>https://piquiribrewshop.netlify.app/pages/contato</loc>
+      <loc>https://piquiribrewshop.netlify.app/kit-regulador-de-presso-co2-1-sada-famabras-com-dmfit</loc>
+      <changefreq>weekly</changefreq>
+      <priority>0.9</priority>
+    </url>
+  
+    <url>
+      <loc>https://piquiribrewshop.netlify.app/kit-regulador-de-presso-co2-1-via-alumnio-hbs-com-dmfit</loc>
+      <changefreq>weekly</changefreq>
+      <priority>0.9</priority>
+    </url>
+  
+    <url>
+      <loc>https://piquiribrewshop.netlify.app/kit-regulador-de-presso-co2-1-via-lato-hbs-com-dmfit</loc>
+      <changefreq>weekly</changefreq>
+      <priority>0.9</priority>
+    </url>
+  
+    <url>
+      <loc>https://piquiribrewshop.netlify.app/kit-regulador-de-presso-co2-1-via-pro-hbs0301-21-com-dmfit</loc>
+      <changefreq>weekly</changefreq>
+      <priority>0.9</priority>
+    </url>
+  
+    <url>
+      <loc>https://piquiribrewshop.netlify.app/kit-regulador-de-presso-co2-1-via-pre-calibrada-hbs-com-dmfit</loc>
+      <changefreq>weekly</changefreq>
+      <priority>0.9</priority>
+    </url>
+  
+    <url>
+      <loc>https://piquiribrewshop.netlify.app/kit-regulador-de-presso-co2-2-sadas-famabras-com-dmfit</loc>
+      <changefreq>weekly</changefreq>
+      <priority>0.9</priority>
+    </url>
+  
+    <url>
+      <loc>https://piquiribrewshop.netlify.app/kit-regulador-de-presso-co2-2-vias-alumnio-hbs-com-dmfit</loc>
+      <changefreq>weekly</changefreq>
+      <priority>0.9</priority>
+    </url>
+  
+    <url>
+      <loc>https://piquiribrewshop.netlify.app/kit-regulador-de-presso-co2-2-vias-lato-hbs-com-dmfit</loc>
+      <changefreq>weekly</changefreq>
+      <priority>0.9</priority>
+    </url>
+  
+    <url>
+      <loc>https://piquiribrewshop.netlify.app/manmetro-de-baixa-para-mini-reguladora-de-co2-hbs0301-53</loc>
+      <changefreq>weekly</changefreq>
+      <priority>0.9</priority>
+    </url>
+  
+    <url>
+      <loc>https://piquiribrewshop.netlify.app/manmetro-de-alta-para-reguladores-de-co2</loc>
+      <changefreq>weekly</changefreq>
+      <priority>0.9</priority>
+    </url>
+  
+    <url>
+      <loc>https://piquiribrewshop.netlify.app/manmetro-de-baixa-para-reguladores-de-co2</loc>
+      <changefreq>weekly</changefreq>
+      <priority>0.9</priority>
+    </url>
+  
+    <url>
+      <loc>https://piquiribrewshop.netlify.app/kit-mini-reguladora-co2-com-manmetro--ball-lock-gs</loc>
+      <changefreq>weekly</changefreq>
+      <priority>0.9</priority>
+    </url>
+  
+    <url>
+      <loc>https://piquiribrewshop.netlify.app/kit-regulador-de-presso-sem-manmetro-famabras-com-dmfit</loc>
+      <changefreq>weekly</changefreq>
+      <priority>0.9</priority>
+    </url>
+  
+    <url>
+      <loc>https://piquiribrewshop.netlify.app/kit-regulador-de-presso-co2-2-vias-pre-calibrada-hbs-com-dmfit</loc>
+      <changefreq>weekly</changefreq>
+      <priority>0.9</priority>
+    </url>
+  
+    <url>
+      <loc>https://piquiribrewshop.netlify.app/kit-mini-reguladora-co2-com-manmetro--ball-lock-gs--cilindro-co2-16g</loc>
+      <changefreq>weekly</changefreq>
+      <priority>0.9</priority>
+    </url>
+  
+    <url>
+      <loc>https://piquiribrewshop.netlify.app/pages/entrega</loc>
       <changefreq>monthly</changefreq>
       <priority>0.7</priority>
     </url>
   
     <url>
-      <loc>https://piquiribrewshop.netlify.app/pages/entrega</loc>
+      <loc>https://piquiribrewshop.netlify.app/pages/contato</loc>
       <changefreq>monthly</changefreq>
       <priority>0.7</priority>
     </url>
@@ -5576,15 +5666,15 @@
     </url>
   
     <url>
-      <loc>https://piquiribrewshop.netlify.app/blog</loc>
-      <changefreq>weekly</changefreq>
-      <priority>0.8</priority>
-    </url>
-  
-    <url>
       <loc>https://piquiribrewshop.netlify.app/</loc>
       <changefreq>daily</changefreq>
       <priority>1</priority>
+    </url>
+  
+    <url>
+      <loc>https://piquiribrewshop.netlify.app/blog</loc>
+      <changefreq>weekly</changefreq>
+      <priority>0.8</priority>
     </url>
   
     <url>
