@@ -3578,6 +3578,30 @@
     </url>
   
     <url>
+      <loc>https://piquiribrewshop.netlify.app/lpulo-barth-haas-styrian-gold---50g-pellets</loc>
+      <changefreq>weekly</changefreq>
+      <priority>0.9</priority>
+    </url>
+  
+    <url>
+      <loc>https://piquiribrewshop.netlify.app/lpulo-barth-haas-styrian-gold---1kg-pellets</loc>
+      <changefreq>weekly</changefreq>
+      <priority>0.9</priority>
+    </url>
+  
+    <url>
+      <loc>https://piquiribrewshop.netlify.app/lpulo-barth-haas-slovenia-bobek---50g-pellets</loc>
+      <changefreq>weekly</changefreq>
+      <priority>0.9</priority>
+    </url>
+  
+    <url>
+      <loc>https://piquiribrewshop.netlify.app/lpulo-barth-haas-styrian-golding-celeia---50g-pellets</loc>
+      <changefreq>weekly</changefreq>
+      <priority>0.9</priority>
+    </url>
+  
+    <url>
       <loc>https://piquiribrewshop.netlify.app/pages/contato</loc>
       <changefreq>monthly</changefreq>
       <priority>0.7</priority>
@@ -3602,13 +3626,13 @@
     </url>
   
     <url>
-      <loc>https://piquiribrewshop.netlify.app/pages/sobre-nos</loc>
+      <loc>https://piquiribrewshop.netlify.app/pages/privacidade</loc>
       <changefreq>monthly</changefreq>
       <priority>0.7</priority>
     </url>
   
     <url>
-      <loc>https://piquiribrewshop.netlify.app/pages/privacidade</loc>
+      <loc>https://piquiribrewshop.netlify.app/pages/sobre-nos</loc>
       <changefreq>monthly</changefreq>
       <priority>0.7</priority>
     </url>
