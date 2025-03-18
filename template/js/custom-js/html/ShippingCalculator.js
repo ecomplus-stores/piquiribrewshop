@@ -162,6 +162,27 @@ export default {
             return
           }
           response.shipping_services.forEach(service => {
+            console.log(service)
+            let replaceLabel = [
+              { label: "JadLog Package", replaceTo: "JadLog" },
+              { label: "Exp São Miguel", replaceTo: "Exp São Miguel" },
+              { label: "Bauer Express", replaceTo: "Bauer" },
+              { label: "Chegou Cargas", replaceTo: "Expressa" },
+              { label: "Agex Encomendas Urgentes", replaceTo: "Agex" },
+              { label: "TNT - Grandes Vol", replaceTo: "TNT" },
+              { label: "Rodonaves", replaceTo: "Rodonaves" },
+              { label: "Azul Cargas Aéreas", replaceTo: "Azul C Aéreas" },
+              { label: "PAC CONTRATO AG (03298)", replaceTo: "PAC" },
+              { label: "SEDEX CONTRATO AG (03220)", replaceTo: "SEDEX" },
+              { label: "TNT - Grandes Vol", replaceTo: "Fedex" },
+              { label: "CORREIOS MINI ENVIOS CTR AG (04227)", replaceTo: "Correios Mini Envios" },
+              { label: "Motoboy", replaceTo: "Motoboy (Somente Toledo)" },
+              { label: "Coopex", replaceTo: "Super Econômica: Coopex" }
+            ];
+            let q = replaceLabel.find(el => el.label == service.label)
+            if(q){
+              service.label = q.replaceTo
+            }
             this.shippingServices.push({
               app_id: appResult.app_id,
               ...service

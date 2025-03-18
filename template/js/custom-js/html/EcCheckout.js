@@ -341,6 +341,7 @@ export default {
           }
         }
       }
+      console.log(transaction)
       this.$emit('checkout', transaction)
     },
 
