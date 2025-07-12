@@ -2,6 +2,600 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
     <url>
+      <loc>https://piquiribrewshop.netlify.app/livros</loc>
+      <changefreq>weekly</changefreq>
+      <priority>0.8</priority>
+    </url>
+  
+    <url>
+      <loc>https://piquiribrewshop.netlify.app/para-servir</loc>
+      <changefreq>weekly</changefreq>
+      <priority>0.8</priority>
+    </url>
+  
+    <url>
+      <loc>https://piquiribrewshop.netlify.app/equipamentos</loc>
+      <changefreq>weekly</changefreq>
+      <priority>0.8</priority>
+    </url>
+  
+    <url>
+      <loc>https://piquiribrewshop.netlify.app/kit-fabricacao</loc>
+      <changefreq>weekly</changefreq>
+      <priority>0.8</priority>
+    </url>
+  
+    <url>
+      <loc>https://piquiribrewshop.netlify.app/kit-insumos</loc>
+      <changefreq>weekly</changefreq>
+      <priority>0.8</priority>
+    </url>
+  
+    <url>
+      <loc>https://piquiribrewshop.netlify.app/lupulos</loc>
+      <changefreq>weekly</changefreq>
+      <priority>0.8</priority>
+    </url>
+  
+    <url>
+      <loc>https://piquiribrewshop.netlify.app/malte</loc>
+      <changefreq>weekly</changefreq>
+      <priority>0.8</priority>
+    </url>
+  
+    <url>
+      <loc>https://piquiribrewshop.netlify.app/outros</loc>
+      <changefreq>weekly</changefreq>
+      <priority>0.8</priority>
+    </url>
+  
+    <url>
+      <loc>https://piquiribrewshop.netlify.app/bone-e-acessorios</loc>
+      <changefreq>weekly</changefreq>
+      <priority>0.8</priority>
+    </url>
+  
+    <url>
+      <loc>https://piquiribrewshop.netlify.app/acessorios-para-servir</loc>
+      <changefreq>weekly</changefreq>
+      <priority>0.8</priority>
+    </url>
+  
+    <url>
+      <loc>https://piquiribrewshop.netlify.app/barril</loc>
+      <changefreq>weekly</changefreq>
+      <priority>0.8</priority>
+    </url>
+  
+    <url>
+      <loc>https://piquiribrewshop.netlify.app/chopeira</loc>
+      <changefreq>weekly</changefreq>
+      <priority>0.8</priority>
+    </url>
+  
+    <url>
+      <loc>https://piquiribrewshop.netlify.app/colindro-co2</loc>
+      <changefreq>weekly</changefreq>
+      <priority>0.8</priority>
+    </url>
+  
+    <url>
+      <loc>https://piquiribrewshop.netlify.app/conexoes-dmfit</loc>
+      <changefreq>weekly</changefreq>
+      <priority>0.8</priority>
+    </url>
+  
+    <url>
+      <loc>https://piquiribrewshop.netlify.app/enchedora-growler</loc>
+      <changefreq>weekly</changefreq>
+      <priority>0.8</priority>
+    </url>
+  
+    <url>
+      <loc>https://piquiribrewshop.netlify.app/extratora</loc>
+      <changefreq>weekly</changefreq>
+      <priority>0.8</priority>
+    </url>
+  
+    <url>
+      <loc>https://piquiribrewshop.netlify.app/growler-inox</loc>
+      <changefreq>weekly</changefreq>
+      <priority>0.8</priority>
+    </url>
+  
+    <url>
+      <loc>https://piquiribrewshop.netlify.app/kit</loc>
+      <changefreq>weekly</changefreq>
+      <priority>0.8</priority>
+    </url>
+  
+    <url>
+      <loc>https://piquiribrewshop.netlify.app/regulador-co2</loc>
+      <changefreq>weekly</changefreq>
+      <priority>0.8</priority>
+    </url>
+  
+    <url>
+      <loc>https://piquiribrewshop.netlify.app/torneira</loc>
+      <changefreq>weekly</changefreq>
+      <priority>0.8</priority>
+    </url>
+  
+    <url>
+      <loc>https://piquiribrewshop.netlify.app/acessorios-equipamentos</loc>
+      <changefreq>weekly</changefreq>
+      <priority>0.8</priority>
+    </url>
+  
+    <url>
+      <loc>https://piquiribrewshop.netlify.app/brassagem</loc>
+      <changefreq>weekly</changefreq>
+      <priority>0.8</priority>
+    </url>
+  
+    <url>
+      <loc>https://piquiribrewshop.netlify.app/controle</loc>
+      <changefreq>weekly</changefreq>
+      <priority>0.8</priority>
+    </url>
+  
+    <url>
+      <loc>https://piquiribrewshop.netlify.app/engate-rapido-inox</loc>
+      <changefreq>weekly</changefreq>
+      <priority>0.8</priority>
+    </url>
+  
+    <url>
+      <loc>https://piquiribrewshop.netlify.app/envase</loc>
+      <changefreq>weekly</changefreq>
+      <priority>0.8</priority>
+    </url>
+  
+    <url>
+      <loc>https://piquiribrewshop.netlify.app/fermentacao</loc>
+      <changefreq>weekly</changefreq>
+      <priority>0.8</priority>
+    </url>
+  
+    <url>
+      <loc>https://piquiribrewshop.netlify.app/fermentador-conico</loc>
+      <changefreq>weekly</changefreq>
+      <priority>0.8</priority>
+    </url>
+  
+    <url>
+      <loc>https://piquiribrewshop.netlify.app/filtros</loc>
+      <changefreq>weekly</changefreq>
+      <priority>0.8</priority>
+    </url>
+  
+    <url>
+      <loc>https://piquiribrewshop.netlify.app/kit-20-litros</loc>
+      <changefreq>weekly</changefreq>
+      <priority>0.8</priority>
+    </url>
+  
+    <url>
+      <loc>https://piquiribrewshop.netlify.app/kit-40-litros</loc>
+      <changefreq>weekly</changefreq>
+      <priority>0.8</priority>
+    </url>
+  
+    <url>
+      <loc>https://piquiribrewshop.netlify.app/kit-60-litros</loc>
+      <changefreq>weekly</changefreq>
+      <priority>0.8</priority>
+    </url>
+  
+    <url>
+      <loc>https://piquiribrewshop.netlify.app/kit-extrato-de-malte-lupulado</loc>
+      <changefreq>weekly</changefreq>
+      <priority>0.8</priority>
+    </url>
+  
+    <url>
+      <loc>https://piquiribrewshop.netlify.app/receita-10-litros</loc>
+      <changefreq>weekly</changefreq>
+      <priority>0.8</priority>
+    </url>
+  
+    <url>
+      <loc>https://piquiribrewshop.netlify.app/receita-20-litros</loc>
+      <changefreq>weekly</changefreq>
+      <priority>0.8</priority>
+    </url>
+  
+    <url>
+      <loc>https://piquiribrewshop.netlify.app/receita-30-litros</loc>
+      <changefreq>weekly</changefreq>
+      <priority>0.8</priority>
+    </url>
+  
+    <url>
+      <loc>https://piquiribrewshop.netlify.app/receita-50-litros</loc>
+      <changefreq>weekly</changefreq>
+      <priority>0.8</priority>
+    </url>
+  
+    <url>
+      <loc>https://piquiribrewshop.netlify.app/receitas-20-litros-st-patricks-day</loc>
+      <changefreq>weekly</changefreq>
+      <priority>0.8</priority>
+    </url>
+  
+    <url>
+      <loc>https://piquiribrewshop.netlify.app/alemaes</loc>
+      <changefreq>weekly</changefreq>
+      <priority>0.8</priority>
+    </url>
+  
+    <url>
+      <loc>https://piquiribrewshop.netlify.app/americanos</loc>
+      <changefreq>weekly</changefreq>
+      <priority>0.8</priority>
+    </url>
+  
+    <url>
+      <loc>https://piquiribrewshop.netlify.app/argentino</loc>
+      <changefreq>weekly</changefreq>
+      <priority>0.8</priority>
+    </url>
+  
+    <url>
+      <loc>https://piquiribrewshop.netlify.app/australianos</loc>
+      <changefreq>weekly</changefreq>
+      <priority>0.8</priority>
+    </url>
+  
+    <url>
+      <loc>https://piquiribrewshop.netlify.app/brasileiro</loc>
+      <changefreq>weekly</changefreq>
+      <priority>0.8</priority>
+    </url>
+  
+    <url>
+      <loc>https://piquiribrewshop.netlify.app/cryo-hops</loc>
+      <changefreq>weekly</changefreq>
+      <priority>0.8</priority>
+    </url>
+  
+    <url>
+      <loc>https://piquiribrewshop.netlify.app/esloveno</loc>
+      <changefreq>weekly</changefreq>
+      <priority>0.8</priority>
+    </url>
+  
+    <url>
+      <loc>https://piquiribrewshop.netlify.app/frances</loc>
+      <changefreq>weekly</changefreq>
+      <priority>0.8</priority>
+    </url>
+  
+    <url>
+      <loc>https://piquiribrewshop.netlify.app/ingleses</loc>
+      <changefreq>weekly</changefreq>
+      <priority>0.8</priority>
+    </url>
+  
+    <url>
+      <loc>https://piquiribrewshop.netlify.app/neozelandes</loc>
+      <changefreq>weekly</changefreq>
+      <priority>0.8</priority>
+    </url>
+  
+    <url>
+      <loc>https://piquiribrewshop.netlify.app/polones</loc>
+      <changefreq>weekly</changefreq>
+      <priority>0.8</priority>
+    </url>
+  
+    <url>
+      <loc>https://piquiribrewshop.netlify.app/saldao-lupulos-2018</loc>
+      <changefreq>weekly</changefreq>
+      <priority>0.8</priority>
+    </url>
+  
+    <url>
+      <loc>https://piquiribrewshop.netlify.app/sul-africano</loc>
+      <changefreq>weekly</changefreq>
+      <priority>0.8</priority>
+    </url>
+  
+    <url>
+      <loc>https://piquiribrewshop.netlify.app/tcheco</loc>
+      <changefreq>weekly</changefreq>
+      <priority>0.8</priority>
+    </url>
+  
+    <url>
+      <loc>https://piquiribrewshop.netlify.app/castle-malting</loc>
+      <changefreq>weekly</changefreq>
+      <priority>0.8</priority>
+    </url>
+  
+    <url>
+      <loc>https://piquiribrewshop.netlify.app/crisp</loc>
+      <changefreq>weekly</changefreq>
+      <priority>0.8</priority>
+    </url>
+  
+    <url>
+      <loc>https://piquiribrewshop.netlify.app/dingemans</loc>
+      <changefreq>weekly</changefreq>
+      <priority>0.8</priority>
+    </url>
+  
+    <url>
+      <loc>https://piquiribrewshop.netlify.app/extrato-de-malte</loc>
+      <changefreq>weekly</changefreq>
+      <priority>0.8</priority>
+    </url>
+  
+    <url>
+      <loc>https://piquiribrewshop.netlify.app/gourmet-malz</loc>
+      <changefreq>weekly</changefreq>
+      <priority>0.8</priority>
+    </url>
+  
+    <url>
+      <loc>https://piquiribrewshop.netlify.app/granomalt</loc>
+      <changefreq>weekly</changefreq>
+      <priority>0.8</priority>
+    </url>
+  
+    <url>
+      <loc>https://piquiribrewshop.netlify.app/maltear</loc>
+      <changefreq>weekly</changefreq>
+      <priority>0.8</priority>
+    </url>
+  
+    <url>
+      <loc>https://piquiribrewshop.netlify.app/malteria-blumenau</loc>
+      <changefreq>weekly</changefreq>
+      <priority>0.8</priority>
+    </url>
+  
+    <url>
+      <loc>https://piquiribrewshop.netlify.app/muntons</loc>
+      <changefreq>weekly</changefreq>
+      <priority>0.8</priority>
+    </url>
+  
+    <url>
+      <loc>https://piquiribrewshop.netlify.app/patagonia</loc>
+      <changefreq>weekly</changefreq>
+      <priority>0.8</priority>
+    </url>
+  
+    <url>
+      <loc>https://piquiribrewshop.netlify.app/pauls-malt</loc>
+      <changefreq>weekly</changefreq>
+      <priority>0.8</priority>
+    </url>
+  
+    <url>
+      <loc>https://piquiribrewshop.netlify.app/the-swaen</loc>
+      <changefreq>weekly</changefreq>
+      <priority>0.8</priority>
+    </url>
+  
+    <url>
+      <loc>https://piquiribrewshop.netlify.app/thomas-fawcett</loc>
+      <changefreq>weekly</changefreq>
+      <priority>0.8</priority>
+    </url>
+  
+    <url>
+      <loc>https://piquiribrewshop.netlify.app/uma-malta</loc>
+      <changefreq>weekly</changefreq>
+      <priority>0.8</priority>
+    </url>
+  
+    <url>
+      <loc>https://piquiribrewshop.netlify.app/vikin-malt</loc>
+      <changefreq>weekly</changefreq>
+      <priority>0.8</priority>
+    </url>
+  
+    <url>
+      <loc>https://piquiribrewshop.netlify.app/weyermann</loc>
+      <changefreq>weekly</changefreq>
+      <priority>0.8</priority>
+    </url>
+  
+    <url>
+      <loc>https://piquiribrewshop.netlify.app/candi-syrup</loc>
+      <changefreq>weekly</changefreq>
+      <priority>0.8</priority>
+    </url>
+  
+    <url>
+      <loc>https://piquiribrewshop.netlify.app/cereais-nao-maltados</loc>
+      <changefreq>weekly</changefreq>
+      <priority>0.8</priority>
+    </url>
+  
+    <url>
+      <loc>https://piquiribrewshop.netlify.app/cerveja</loc>
+      <changefreq>weekly</changefreq>
+      <priority>0.8</priority>
+    </url>
+  
+    <url>
+      <loc>https://piquiribrewshop.netlify.app/clarificante-antiespumante-e-antioxidante</loc>
+      <changefreq>weekly</changefreq>
+      <priority>0.8</priority>
+    </url>
+  
+    <url>
+      <loc>https://piquiribrewshop.netlify.app/copo-e-abridor</loc>
+      <changefreq>weekly</changefreq>
+      <priority>0.8</priority>
+    </url>
+  
+    <url>
+      <loc>https://piquiribrewshop.netlify.app/decoracao</loc>
+      <changefreq>weekly</changefreq>
+      <priority>0.8</priority>
+    </url>
+  
+    <url>
+      <loc>https://piquiribrewshop.netlify.app/especiarias</loc>
+      <changefreq>weekly</changefreq>
+      <priority>0.8</priority>
+    </url>
+  
+    <url>
+      <loc>https://piquiribrewshop.netlify.app/extratos</loc>
+      <changefreq>weekly</changefreq>
+      <priority>0.8</priority>
+    </url>
+  
+    <url>
+      <loc>https://piquiribrewshop.netlify.app/sais</loc>
+      <changefreq>weekly</changefreq>
+      <priority>0.8</priority>
+    </url>
+  
+    <url>
+      <loc>https://piquiribrewshop.netlify.app/sanitizacao</loc>
+      <changefreq>weekly</changefreq>
+      <priority>0.8</priority>
+    </url>
+  
+    <url>
+      <loc>https://piquiribrewshop.netlify.app/agraria</loc>
+      <changefreq>weekly</changefreq>
+      <priority>0.8</priority>
+    </url>
+  
+    <url>
+      <loc>https://piquiribrewshop.netlify.app/leveduras</loc>
+      <changefreq>weekly</changefreq>
+      <priority>0.8</priority>
+    </url>
+  
+    <url>
+      <loc>https://piquiribrewshop.netlify.app/aeb-brewing</loc>
+      <changefreq>weekly</changefreq>
+      <priority>0.8</priority>
+    </url>
+  
+    <url>
+      <loc>https://piquiribrewshop.netlify.app/angel</loc>
+      <changefreq>weekly</changefreq>
+      <priority>0.8</priority>
+    </url>
+  
+    <url>
+      <loc>https://piquiribrewshop.netlify.app/fermentis</loc>
+      <changefreq>weekly</changefreq>
+      <priority>0.8</priority>
+    </url>
+  
+    <url>
+      <loc>https://piquiribrewshop.netlify.app/lallemand</loc>
+      <changefreq>weekly</changefreq>
+      <priority>0.8</priority>
+    </url>
+  
+    <url>
+      <loc>https://piquiribrewshop.netlify.app/nutriente-para-levedura</loc>
+      <changefreq>weekly</changefreq>
+      <priority>0.8</priority>
+    </url>
+  
+    <url>
+      <loc>https://piquiribrewshop.netlify.app/pinnacle</loc>
+      <changefreq>weekly</changefreq>
+      <priority>0.8</priority>
+    </url>
+  
+    <url>
+      <loc>https://piquiribrewshop.netlify.app/whc-lab</loc>
+      <changefreq>weekly</changefreq>
+      <priority>0.8</priority>
+    </url>
+  
+    <url>
+      <loc>https://piquiribrewshop.netlify.app/lupulos-old</loc>
+      <changefreq>weekly</changefreq>
+      <priority>0.8</priority>
+    </url>
+  
+    <url>
+      <loc>https://piquiribrewshop.netlify.app/clarificante--antiespumante-e-antioxidante</loc>
+      <changefreq>weekly</changefreq>
+      <priority>0.8</priority>
+    </url>
+  
+    <url>
+      <loc>https://piquiribrewshop.netlify.app/chopeira--para-servir</loc>
+      <changefreq>weekly</changefreq>
+      <priority>0.8</priority>
+    </url>
+  
+    <url>
+      <loc>https://piquiribrewshop.netlify.app/cilindro-co2</loc>
+      <changefreq>weekly</changefreq>
+      <priority>0.8</priority>
+    </url>
+  
+    <url>
+      <loc>https://piquiribrewshop.netlify.app/enzima</loc>
+      <changefreq>weekly</changefreq>
+      <priority>0.8</priority>
+    </url>
+  
+    <url>
+      <loc>https://piquiribrewshop.netlify.app/panela-automatica</loc>
+      <changefreq>weekly</changefreq>
+      <priority>0.8</priority>
+    </url>
+  
+    <url>
+      <loc>https://piquiribrewshop.netlify.app/brettanomyces-levteck</loc>
+      <changefreq>weekly</changefreq>
+      <priority>0.8</priority>
+    </url>
+  
+    <url>
+      <loc>https://piquiribrewshop.netlify.app/software</loc>
+      <changefreq>weekly</changefreq>
+      <priority>0.8</priority>
+    </url>
+  
+    <url>
+      <loc>https://piquiribrewshop.netlify.app/cervejas</loc>
+      <changefreq>weekly</changefreq>
+      <priority>0.8</priority>
+    </url>
+  
+    <url>
+      <loc>https://piquiribrewshop.netlify.app/cervejas-alemas-e-tchecas</loc>
+      <changefreq>weekly</changefreq>
+      <priority>0.8</priority>
+    </url>
+  
+    <url>
+      <loc>https://piquiribrewshop.netlify.app/cervejas-belgas</loc>
+      <changefreq>weekly</changefreq>
+      <priority>0.8</priority>
+    </url>
+  
+    <url>
+      <loc>https://piquiribrewshop.netlify.app/cervejas-brasileiras</loc>
+      <changefreq>weekly</changefreq>
+      <priority>0.8</priority>
+    </url>
+  
+    <url>
+      <loc>https://piquiribrewshop.netlify.app/copos</loc>
+      <changefreq>weekly</changefreq>
+      <priority>0.8</priority>
+    </url>
+  
+    <url>
       <loc>https://piquiribrewshop.netlify.app/malte-agraria-munique---1kg</loc>
       <changefreq>weekly</changefreq>
       <priority>0.9</priority>
@@ -11018,583 +11612,127 @@
     </url>
   
     <url>
-      <loc>https://piquiribrewshop.netlify.app/livros</loc>
+      <loc>https://piquiribrewshop.netlify.app/cerveja-bodebrown-robinsons-trooper-fear-of-the-dark---500ml-validade-07/2025</loc>
       <changefreq>weekly</changefreq>
-      <priority>0.8</priority>
+      <priority>0.9</priority>
     </url>
   
     <url>
-      <loc>https://piquiribrewshop.netlify.app/para-servir</loc>
+      <loc>https://piquiribrewshop.netlify.app/cerveja-dogma-rest-in-pilz---350ml-lata</loc>
       <changefreq>weekly</changefreq>
-      <priority>0.8</priority>
+      <priority>0.9</priority>
     </url>
   
     <url>
-      <loc>https://piquiribrewshop.netlify.app/equipamentos</loc>
+      <loc>https://piquiribrewshop.netlify.app/cerveja-dogma-hop-little-lover---473ml-lata</loc>
       <changefreq>weekly</changefreq>
-      <priority>0.8</priority>
+      <priority>0.9</priority>
     </url>
   
     <url>
-      <loc>https://piquiribrewshop.netlify.app/kit-fabricacao</loc>
+      <loc>https://piquiribrewshop.netlify.app/cerveja-brugse-zot-blond-ale---garrafa-330ml</loc>
       <changefreq>weekly</changefreq>
-      <priority>0.8</priority>
+      <priority>0.9</priority>
     </url>
   
     <url>
-      <loc>https://piquiribrewshop.netlify.app/kit-insumos</loc>
+      <loc>https://piquiribrewshop.netlify.app/cerveja-dogma-prismatic---473ml-lata</loc>
       <changefreq>weekly</changefreq>
-      <priority>0.8</priority>
+      <priority>0.9</priority>
     </url>
   
     <url>
-      <loc>https://piquiribrewshop.netlify.app/lupulos</loc>
+      <loc>https://piquiribrewshop.netlify.app/cerveja-bodebrown-saint-arnould-10-wood-aged-millesime-2022---750ml-garrafa</loc>
       <changefreq>weekly</changefreq>
-      <priority>0.8</priority>
+      <priority>0.9</priority>
     </url>
   
     <url>
-      <loc>https://piquiribrewshop.netlify.app/malte</loc>
+      <loc>https://piquiribrewshop.netlify.app/cerveja-delirium-nocturnum---330ml</loc>
       <changefreq>weekly</changefreq>
-      <priority>0.8</priority>
+      <priority>0.9</priority>
     </url>
   
     <url>
-      <loc>https://piquiribrewshop.netlify.app/outros</loc>
+      <loc>https://piquiribrewshop.netlify.app/cerveja-de-koninck-bolleke---330ml-validade-08/2025</loc>
       <changefreq>weekly</changefreq>
-      <priority>0.8</priority>
+      <priority>0.9</priority>
     </url>
   
     <url>
-      <loc>https://piquiribrewshop.netlify.app/bone-e-acessorios</loc>
+      <loc>https://piquiribrewshop.netlify.app/cerveja-dum-petroleum---garrafa-355ml</loc>
       <changefreq>weekly</changefreq>
-      <priority>0.8</priority>
+      <priority>0.9</priority>
     </url>
   
     <url>
-      <loc>https://piquiribrewshop.netlify.app/acessorios-para-servir</loc>
+      <loc>https://piquiribrewshop.netlify.app/cerveja-dum-petroleum-carvalho---garrafa-355ml</loc>
       <changefreq>weekly</changefreq>
-      <priority>0.8</priority>
+      <priority>0.9</priority>
     </url>
   
     <url>
-      <loc>https://piquiribrewshop.netlify.app/barril</loc>
+      <loc>https://piquiribrewshop.netlify.app/cerveja-delirium-argentum-330ml</loc>
       <changefreq>weekly</changefreq>
-      <priority>0.8</priority>
+      <priority>0.9</priority>
     </url>
   
     <url>
-      <loc>https://piquiribrewshop.netlify.app/chopeira</loc>
+      <loc>https://piquiribrewshop.netlify.app/cerveja-dum-petroleum-amburana--garrafa-355ml</loc>
       <changefreq>weekly</changefreq>
-      <priority>0.8</priority>
+      <priority>0.9</priority>
     </url>
   
     <url>
-      <loc>https://piquiribrewshop.netlify.app/colindro-co2</loc>
+      <loc>https://piquiribrewshop.netlify.app/cerveja-duvel---330ml</loc>
       <changefreq>weekly</changefreq>
-      <priority>0.8</priority>
+      <priority>0.9</priority>
     </url>
   
     <url>
-      <loc>https://piquiribrewshop.netlify.app/conexoes-dmfit</loc>
+      <loc>https://piquiribrewshop.netlify.app/cerveja-dum-petroleum-castanheira---garrafa-355ml</loc>
       <changefreq>weekly</changefreq>
-      <priority>0.8</priority>
+      <priority>0.9</priority>
     </url>
   
     <url>
-      <loc>https://piquiribrewshop.netlify.app/enchedora-growler</loc>
+      <loc>https://piquiribrewshop.netlify.app/cerveja-dum-petroleum-baunilha---garrafa-355ml</loc>
       <changefreq>weekly</changefreq>
-      <priority>0.8</priority>
+      <priority>0.9</priority>
     </url>
   
     <url>
-      <loc>https://piquiribrewshop.netlify.app/extratora</loc>
+      <loc>https://piquiribrewshop.netlify.app/cerveja-dum-jan-kubis---garrafa-600ml</loc>
       <changefreq>weekly</changefreq>
-      <priority>0.8</priority>
+      <priority>0.9</priority>
     </url>
   
     <url>
-      <loc>https://piquiribrewshop.netlify.app/growler-inox</loc>
+      <loc>https://piquiribrewshop.netlify.app/cerveja-duvel-666---330ml</loc>
       <changefreq>weekly</changefreq>
-      <priority>0.8</priority>
+      <priority>0.9</priority>
     </url>
   
     <url>
-      <loc>https://piquiribrewshop.netlify.app/kit</loc>
+      <loc>https://piquiribrewshop.netlify.app/cerveja-dum-petroleum-chipotle---garrafa-355ml</loc>
       <changefreq>weekly</changefreq>
-      <priority>0.8</priority>
+      <priority>0.9</priority>
     </url>
   
     <url>
-      <loc>https://piquiribrewshop.netlify.app/regulador-co2</loc>
+      <loc>https://piquiribrewshop.netlify.app/cerveja-duvel-tripel-hop-cashmere---330ml</loc>
       <changefreq>weekly</changefreq>
-      <priority>0.8</priority>
-    </url>
-  
-    <url>
-      <loc>https://piquiribrewshop.netlify.app/torneira</loc>
-      <changefreq>weekly</changefreq>
-      <priority>0.8</priority>
-    </url>
-  
-    <url>
-      <loc>https://piquiribrewshop.netlify.app/acessorios-equipamentos</loc>
-      <changefreq>weekly</changefreq>
-      <priority>0.8</priority>
-    </url>
-  
-    <url>
-      <loc>https://piquiribrewshop.netlify.app/brassagem</loc>
-      <changefreq>weekly</changefreq>
-      <priority>0.8</priority>
-    </url>
-  
-    <url>
-      <loc>https://piquiribrewshop.netlify.app/controle</loc>
-      <changefreq>weekly</changefreq>
-      <priority>0.8</priority>
-    </url>
-  
-    <url>
-      <loc>https://piquiribrewshop.netlify.app/engate-rapido-inox</loc>
-      <changefreq>weekly</changefreq>
-      <priority>0.8</priority>
-    </url>
-  
-    <url>
-      <loc>https://piquiribrewshop.netlify.app/envase</loc>
-      <changefreq>weekly</changefreq>
-      <priority>0.8</priority>
-    </url>
-  
-    <url>
-      <loc>https://piquiribrewshop.netlify.app/fermentacao</loc>
-      <changefreq>weekly</changefreq>
-      <priority>0.8</priority>
-    </url>
-  
-    <url>
-      <loc>https://piquiribrewshop.netlify.app/fermentador-conico</loc>
-      <changefreq>weekly</changefreq>
-      <priority>0.8</priority>
-    </url>
-  
-    <url>
-      <loc>https://piquiribrewshop.netlify.app/filtros</loc>
-      <changefreq>weekly</changefreq>
-      <priority>0.8</priority>
-    </url>
-  
-    <url>
-      <loc>https://piquiribrewshop.netlify.app/kit-20-litros</loc>
-      <changefreq>weekly</changefreq>
-      <priority>0.8</priority>
-    </url>
-  
-    <url>
-      <loc>https://piquiribrewshop.netlify.app/kit-40-litros</loc>
-      <changefreq>weekly</changefreq>
-      <priority>0.8</priority>
-    </url>
-  
-    <url>
-      <loc>https://piquiribrewshop.netlify.app/kit-60-litros</loc>
-      <changefreq>weekly</changefreq>
-      <priority>0.8</priority>
-    </url>
-  
-    <url>
-      <loc>https://piquiribrewshop.netlify.app/kit-extrato-de-malte-lupulado</loc>
-      <changefreq>weekly</changefreq>
-      <priority>0.8</priority>
-    </url>
-  
-    <url>
-      <loc>https://piquiribrewshop.netlify.app/receita-10-litros</loc>
-      <changefreq>weekly</changefreq>
-      <priority>0.8</priority>
-    </url>
-  
-    <url>
-      <loc>https://piquiribrewshop.netlify.app/receita-20-litros</loc>
-      <changefreq>weekly</changefreq>
-      <priority>0.8</priority>
-    </url>
-  
-    <url>
-      <loc>https://piquiribrewshop.netlify.app/receita-30-litros</loc>
-      <changefreq>weekly</changefreq>
-      <priority>0.8</priority>
-    </url>
-  
-    <url>
-      <loc>https://piquiribrewshop.netlify.app/receita-50-litros</loc>
-      <changefreq>weekly</changefreq>
-      <priority>0.8</priority>
-    </url>
-  
-    <url>
-      <loc>https://piquiribrewshop.netlify.app/receitas-20-litros-st-patricks-day</loc>
-      <changefreq>weekly</changefreq>
-      <priority>0.8</priority>
-    </url>
-  
-    <url>
-      <loc>https://piquiribrewshop.netlify.app/alemaes</loc>
-      <changefreq>weekly</changefreq>
-      <priority>0.8</priority>
-    </url>
-  
-    <url>
-      <loc>https://piquiribrewshop.netlify.app/americanos</loc>
-      <changefreq>weekly</changefreq>
-      <priority>0.8</priority>
-    </url>
-  
-    <url>
-      <loc>https://piquiribrewshop.netlify.app/argentino</loc>
-      <changefreq>weekly</changefreq>
-      <priority>0.8</priority>
-    </url>
-  
-    <url>
-      <loc>https://piquiribrewshop.netlify.app/australianos</loc>
-      <changefreq>weekly</changefreq>
-      <priority>0.8</priority>
-    </url>
-  
-    <url>
-      <loc>https://piquiribrewshop.netlify.app/brasileiro</loc>
-      <changefreq>weekly</changefreq>
-      <priority>0.8</priority>
-    </url>
-  
-    <url>
-      <loc>https://piquiribrewshop.netlify.app/cryo-hops</loc>
-      <changefreq>weekly</changefreq>
-      <priority>0.8</priority>
-    </url>
-  
-    <url>
-      <loc>https://piquiribrewshop.netlify.app/esloveno</loc>
-      <changefreq>weekly</changefreq>
-      <priority>0.8</priority>
-    </url>
-  
-    <url>
-      <loc>https://piquiribrewshop.netlify.app/frances</loc>
-      <changefreq>weekly</changefreq>
-      <priority>0.8</priority>
-    </url>
-  
-    <url>
-      <loc>https://piquiribrewshop.netlify.app/ingleses</loc>
-      <changefreq>weekly</changefreq>
-      <priority>0.8</priority>
-    </url>
-  
-    <url>
-      <loc>https://piquiribrewshop.netlify.app/neozelandes</loc>
-      <changefreq>weekly</changefreq>
-      <priority>0.8</priority>
-    </url>
-  
-    <url>
-      <loc>https://piquiribrewshop.netlify.app/polones</loc>
-      <changefreq>weekly</changefreq>
-      <priority>0.8</priority>
-    </url>
-  
-    <url>
-      <loc>https://piquiribrewshop.netlify.app/saldao-lupulos-2018</loc>
-      <changefreq>weekly</changefreq>
-      <priority>0.8</priority>
-    </url>
-  
-    <url>
-      <loc>https://piquiribrewshop.netlify.app/sul-africano</loc>
-      <changefreq>weekly</changefreq>
-      <priority>0.8</priority>
-    </url>
-  
-    <url>
-      <loc>https://piquiribrewshop.netlify.app/tcheco</loc>
-      <changefreq>weekly</changefreq>
-      <priority>0.8</priority>
-    </url>
-  
-    <url>
-      <loc>https://piquiribrewshop.netlify.app/atelier-do-malte</loc>
-      <changefreq>weekly</changefreq>
-      <priority>0.8</priority>
-    </url>
-  
-    <url>
-      <loc>https://piquiribrewshop.netlify.app/bws</loc>
-      <changefreq>weekly</changefreq>
-      <priority>0.8</priority>
-    </url>
-  
-    <url>
-      <loc>https://piquiribrewshop.netlify.app/castle-malting</loc>
-      <changefreq>weekly</changefreq>
-      <priority>0.8</priority>
-    </url>
-  
-    <url>
-      <loc>https://piquiribrewshop.netlify.app/crisp</loc>
-      <changefreq>weekly</changefreq>
-      <priority>0.8</priority>
-    </url>
-  
-    <url>
-      <loc>https://piquiribrewshop.netlify.app/dingemans</loc>
-      <changefreq>weekly</changefreq>
-      <priority>0.8</priority>
-    </url>
-  
-    <url>
-      <loc>https://piquiribrewshop.netlify.app/extrato-de-malte</loc>
-      <changefreq>weekly</changefreq>
-      <priority>0.8</priority>
-    </url>
-  
-    <url>
-      <loc>https://piquiribrewshop.netlify.app/gourmet-malz</loc>
-      <changefreq>weekly</changefreq>
-      <priority>0.8</priority>
-    </url>
-  
-    <url>
-      <loc>https://piquiribrewshop.netlify.app/granomalt</loc>
-      <changefreq>weekly</changefreq>
-      <priority>0.8</priority>
-    </url>
-  
-    <url>
-      <loc>https://piquiribrewshop.netlify.app/maltear</loc>
-      <changefreq>weekly</changefreq>
-      <priority>0.8</priority>
-    </url>
-  
-    <url>
-      <loc>https://piquiribrewshop.netlify.app/malteria-blumenau</loc>
-      <changefreq>weekly</changefreq>
-      <priority>0.8</priority>
-    </url>
-  
-    <url>
-      <loc>https://piquiribrewshop.netlify.app/muntons</loc>
-      <changefreq>weekly</changefreq>
-      <priority>0.8</priority>
-    </url>
-  
-    <url>
-      <loc>https://piquiribrewshop.netlify.app/patagonia</loc>
-      <changefreq>weekly</changefreq>
-      <priority>0.8</priority>
-    </url>
-  
-    <url>
-      <loc>https://piquiribrewshop.netlify.app/pauls-malt</loc>
-      <changefreq>weekly</changefreq>
-      <priority>0.8</priority>
-    </url>
-  
-    <url>
-      <loc>https://piquiribrewshop.netlify.app/the-swaen</loc>
-      <changefreq>weekly</changefreq>
-      <priority>0.8</priority>
-    </url>
-  
-    <url>
-      <loc>https://piquiribrewshop.netlify.app/thomas-fawcett</loc>
-      <changefreq>weekly</changefreq>
-      <priority>0.8</priority>
-    </url>
-  
-    <url>
-      <loc>https://piquiribrewshop.netlify.app/uma-malta</loc>
-      <changefreq>weekly</changefreq>
-      <priority>0.8</priority>
-    </url>
-  
-    <url>
-      <loc>https://piquiribrewshop.netlify.app/vikin-malt</loc>
-      <changefreq>weekly</changefreq>
-      <priority>0.8</priority>
-    </url>
-  
-    <url>
-      <loc>https://piquiribrewshop.netlify.app/weyermann</loc>
-      <changefreq>weekly</changefreq>
-      <priority>0.8</priority>
-    </url>
-  
-    <url>
-      <loc>https://piquiribrewshop.netlify.app/candi-syrup</loc>
-      <changefreq>weekly</changefreq>
-      <priority>0.8</priority>
-    </url>
-  
-    <url>
-      <loc>https://piquiribrewshop.netlify.app/cereais-nao-maltados</loc>
-      <changefreq>weekly</changefreq>
-      <priority>0.8</priority>
-    </url>
-  
-    <url>
-      <loc>https://piquiribrewshop.netlify.app/cerveja</loc>
-      <changefreq>weekly</changefreq>
-      <priority>0.8</priority>
-    </url>
-  
-    <url>
-      <loc>https://piquiribrewshop.netlify.app/clarificante-antiespumante-e-antioxidante</loc>
-      <changefreq>weekly</changefreq>
-      <priority>0.8</priority>
-    </url>
-  
-    <url>
-      <loc>https://piquiribrewshop.netlify.app/copo-e-abridor</loc>
-      <changefreq>weekly</changefreq>
-      <priority>0.8</priority>
-    </url>
-  
-    <url>
-      <loc>https://piquiribrewshop.netlify.app/decoracao</loc>
-      <changefreq>weekly</changefreq>
-      <priority>0.8</priority>
-    </url>
-  
-    <url>
-      <loc>https://piquiribrewshop.netlify.app/especiarias</loc>
-      <changefreq>weekly</changefreq>
-      <priority>0.8</priority>
-    </url>
-  
-    <url>
-      <loc>https://piquiribrewshop.netlify.app/extratos</loc>
-      <changefreq>weekly</changefreq>
-      <priority>0.8</priority>
-    </url>
-  
-    <url>
-      <loc>https://piquiribrewshop.netlify.app/sais</loc>
-      <changefreq>weekly</changefreq>
-      <priority>0.8</priority>
-    </url>
-  
-    <url>
-      <loc>https://piquiribrewshop.netlify.app/sanitizacao</loc>
-      <changefreq>weekly</changefreq>
-      <priority>0.8</priority>
-    </url>
-  
-    <url>
-      <loc>https://piquiribrewshop.netlify.app/agraria</loc>
-      <changefreq>weekly</changefreq>
-      <priority>0.8</priority>
-    </url>
-  
-    <url>
-      <loc>https://piquiribrewshop.netlify.app/leveduras</loc>
-      <changefreq>weekly</changefreq>
-      <priority>0.8</priority>
-    </url>
-  
-    <url>
-      <loc>https://piquiribrewshop.netlify.app/aeb-brewing</loc>
-      <changefreq>weekly</changefreq>
-      <priority>0.8</priority>
-    </url>
-  
-    <url>
-      <loc>https://piquiribrewshop.netlify.app/angel</loc>
-      <changefreq>weekly</changefreq>
-      <priority>0.8</priority>
-    </url>
-  
-    <url>
-      <loc>https://piquiribrewshop.netlify.app/fermentis</loc>
-      <changefreq>weekly</changefreq>
-      <priority>0.8</priority>
-    </url>
-  
-    <url>
-      <loc>https://piquiribrewshop.netlify.app/lallemand</loc>
-      <changefreq>weekly</changefreq>
-      <priority>0.8</priority>
-    </url>
-  
-    <url>
-      <loc>https://piquiribrewshop.netlify.app/nutriente-para-levedura</loc>
-      <changefreq>weekly</changefreq>
-      <priority>0.8</priority>
-    </url>
-  
-    <url>
-      <loc>https://piquiribrewshop.netlify.app/pinnacle</loc>
-      <changefreq>weekly</changefreq>
-      <priority>0.8</priority>
-    </url>
-  
-    <url>
-      <loc>https://piquiribrewshop.netlify.app/whc-lab</loc>
-      <changefreq>weekly</changefreq>
-      <priority>0.8</priority>
-    </url>
-  
-    <url>
-      <loc>https://piquiribrewshop.netlify.app/lupulos-old</loc>
-      <changefreq>weekly</changefreq>
-      <priority>0.8</priority>
-    </url>
-  
-    <url>
-      <loc>https://piquiribrewshop.netlify.app/clarificante--antiespumante-e-antioxidante</loc>
-      <changefreq>weekly</changefreq>
-      <priority>0.8</priority>
-    </url>
-  
-    <url>
-      <loc>https://piquiribrewshop.netlify.app/chopeira--para-servir</loc>
-      <changefreq>weekly</changefreq>
-      <priority>0.8</priority>
-    </url>
-  
-    <url>
-      <loc>https://piquiribrewshop.netlify.app/cilindro-co2</loc>
-      <changefreq>weekly</changefreq>
-      <priority>0.8</priority>
-    </url>
-  
-    <url>
-      <loc>https://piquiribrewshop.netlify.app/enzima</loc>
-      <changefreq>weekly</changefreq>
-      <priority>0.8</priority>
-    </url>
-  
-    <url>
-      <loc>https://piquiribrewshop.netlify.app/panela-automatica</loc>
-      <changefreq>weekly</changefreq>
-      <priority>0.8</priority>
-    </url>
-  
-    <url>
-      <loc>https://piquiribrewshop.netlify.app/brettanomyces-levteck</loc>
-      <changefreq>weekly</changefreq>
-      <priority>0.8</priority>
-    </url>
-  
-    <url>
-      <loc>https://piquiribrewshop.netlify.app/software</loc>
-      <changefreq>weekly</changefreq>
-      <priority>0.8</priority>
+      <priority>0.9</priority>
     </url>
   
     <url>
       <loc>https://piquiribrewshop.netlify.app/pages/contato</loc>
+      <changefreq>monthly</changefreq>
+      <priority>0.7</priority>
+    </url>
+  
+    <url>
+      <loc>https://piquiribrewshop.netlify.app/pages/entrega</loc>
       <changefreq>monthly</changefreq>
       <priority>0.7</priority>
     </url>
@@ -11607,12 +11745,6 @@
   
     <url>
       <loc>https://piquiribrewshop.netlify.app/pages/pagamentos</loc>
-      <changefreq>monthly</changefreq>
-      <priority>0.7</priority>
-    </url>
-  
-    <url>
-      <loc>https://piquiribrewshop.netlify.app/pages/entrega</loc>
       <changefreq>monthly</changefreq>
       <priority>0.7</priority>
     </url>
