@@ -1,0 +1,37 @@
+{
+  "icons": [
+    {
+      "src": "/icon_512x512.2aa26fe45659aefdfb41495630d74931.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/icon_384x384.695fef708feab0ef941ab475c68e3439.png",
+      "sizes": "384x384",
+      "type": "image/png"
+    },
+    {
+      "src": "/icon_192x192.c13b10c90ee9dfa60ea4b989c90dac34.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/icon_128x128.8805f4a235b71839a41339bd09d9db73.png",
+      "sizes": "128x128",
+      "type": "image/png"
+    },
+    {
+      "src": "/icon_96x96.8cb142e8fb2b4fd3a4c3f08b92d6f280.png",
+      "sizes": "96x96",
+      "type": "image/png"
+    }
+  ],
+  "name": "Piquiri Brewshop - Loja De Lúpulos, Extrato De Malte e Mais",
+  "short_name": "Piquiri Brewshop",
+  "orientation": "portrait",
+  "display": "standalone",
+  "start_url": ".",
+  "description": "A PIQUIRI BREWSHOP é uma loja virtual de vendas de insumos para o cervejeiro artesanal, com sede na cidade de Toledo/PR,, idealizada por um casal ...",
+  "background_color": "#ffffff",
+  "theme_color": "#000000"
+}
