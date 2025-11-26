@@ -1,0 +1,181 @@
+{
+  "backend": {
+    "name": "git-gateway",
+    "branch": "master",
+    "identity_url": "https://gotrue.ecomplus.biz/51525/.netlify/identity",
+    "gateway_url": "https://gitgateway.ecomplus.biz/51525/.netlify/git"
+  },
+  "collections": [
+    {
+      "label" : "[alpix.dev]",
+      "name": "alpix",
+      "editor": {
+        "preview": false
+      },
+      "files": [
+        {
+          "name": "apx_header",
+          "label": "Cabeçalho",
+          "file": "content/apx_header.json",
+          "fields": [
+            {
+              "label": "Links do Menu",
+              "name": "links",
+              "widget": "list",
+              "required":false,
+              "fields": [
+                {
+                  "label": "Título",
+                  "name": "title",
+                  "widget": "string"          
+                },
+                {
+                  "label": "URL do título",
+                  "name": "url",
+                  "widget": "string"          
+                },
+                {
+                  "label":"Imagens",
+                  "name":"images",
+                  "widget":"list",
+                  "required":false,
+                  "fields": [
+                    {
+                      "label": "Item",
+                      "name": "item",
+                      "widget": "object",
+                      "required":false,
+                      "fields": [
+                        {
+                          "label": "Texto do Item",
+                          "name": "title",
+                          "widget": "string"          
+                        },
+                        {
+                          "label": "URL do Item",
+                          "name": "url",
+                          "widget": "string"          
+                        },     
+                        {
+                          "label": "Imagem",
+                          "name": "image",
+                          "widget": "image",
+                          "required":false
+                        }  
+                      ]
+                    }  
+                  ]
+                },
+                {
+                  "label":"Itens do Dropdown",
+                  "name":"list",
+                  "widget":"list",
+                  "required":false,
+                  "fields": [
+                    {
+                      "label": "Item do Dropdown",
+                      "name": "item",
+                      "widget": "object",
+                      "required":false,
+                      "fields": [
+                        {
+                          "label": "Texto do Item",
+                          "name": "title",
+                          "widget": "string"          
+                        },
+                        {
+                          "label": "URL do Item",
+                          "name": "url",
+                          "widget": "string"          
+                        },
+                        {
+                          "label":"Links",
+                          "name":"list",
+                          "widget":"list",
+                          "required":false,
+                          "fields": [
+                            {
+                              "label": "Item",
+                              "name": "item",
+                              "widget": "object",
+                              "required":false,
+                              "fields": [
+                                {
+                                  "label": "Texto do Item",
+                                  "name": "title",
+                                  "widget": "string"          
+                                },
+                                {
+                                  "label": "URL do Item",
+                                  "name": "url",
+                                  "widget": "string"          
+                                }         
+                              ]
+                            }  
+                          ]
+                        }                                    
+                      ]
+                    }                      
+                  ]
+                }
+                       
+              ]
+            }
+          ]
+        },
+        {
+          "name": "whatsapp",
+          "label": "Botão Whatsapp",
+          "file": "content/apx_whatsapp.json",
+          "editor": {
+            "preview": false
+          },
+          "fields": [
+            {
+              "label": "Ícone",
+              "name": "image",
+              "widget": "image",
+              "required":false
+            },
+            {
+              "label": "Número (Ex: 559900000000) 55 + DDD + Telefone",
+              "name": "number",
+              "widget": "string"
+            },
+            {
+              "label": "Posição",
+              "name": "position",
+              "widget": "select",
+              "options": ["Esquerda","Direita"]
+            }
+          ]
+        },
+        {
+          "name": "feriados",
+          "label": "Feriados",
+          "file": "content/apx_feriados.json",
+          "editor": {
+            "preview": false
+          },
+          "fields": [
+            {
+              "label":"Lista de Feriados",
+              "name":"list",
+              "widget":"list",
+              "required":false,
+              "fields": [
+                {
+                  "label": "Data do Feriado",
+                  "name": "date",
+                  "widget": "datetime",
+                  "default" : "{{now}}",
+                  "date_format": "DD/MM/YYYY"          
+                }                      
+              ]
+            }
+          ]
+        }   
+      ]
+    }
+  ]
+}
