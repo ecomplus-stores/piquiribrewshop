@@ -12818,6 +12818,24 @@
     </url>
   
     <url>
+      <loc>https://piquiribrewshop.netlify.app/clarificante-para-cerveja-maturada-prodooze-sc1---5kg</loc>
+      <changefreq>weekly</changefreq>
+      <priority>0.9</priority>
+    </url>
+  
+    <url>
+      <loc>https://piquiribrewshop.netlify.app/prodooze-pect-l1---500g</loc>
+      <changefreq>weekly</changefreq>
+      <priority>0.9</priority>
+    </url>
+  
+    <url>
+      <loc>https://piquiribrewshop.netlify.app/lupulo-np-hersbrucker---500-gramas-pellets</loc>
+      <changefreq>weekly</changefreq>
+      <priority>0.9</priority>
+    </url>
+  
+    <url>
       <loc>https://piquiribrewshop.netlify.app/pages/contato</loc>
       <changefreq>monthly</changefreq>
       <priority>0.7</priority>
@@ -12842,6 +12860,12 @@
     </url>
   
     <url>
+      <loc>https://piquiribrewshop.netlify.app/pages/privacidade</loc>
+      <changefreq>monthly</changefreq>
+      <priority>0.7</priority>
+    </url>
+  
+    <url>
       <loc>https://piquiribrewshop.netlify.app/pages/sobre-nos</loc>
       <changefreq>monthly</changefreq>
       <priority>0.7</priority>
@@ -12849,12 +12873,6 @@
   
     <url>
       <loc>https://piquiribrewshop.netlify.app/pages/termos</loc>
-      <changefreq>monthly</changefreq>
-      <priority>0.7</priority>
-    </url>
-  
-    <url>
-      <loc>https://piquiribrewshop.netlify.app/pages/privacidade</loc>
       <changefreq>monthly</changefreq>
       <priority>0.7</priority>
     </url>
